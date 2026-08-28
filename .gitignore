@@ -27,3 +27,6 @@ pnpm-debug.log*
 # editor / agent local state
 .codex/
 .claude/
+
+# local backup of upstream template's .git, safe to delete manually
+.git.old-keel-template/
