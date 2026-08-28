@@ -13,8 +13,8 @@
   --color-line: oklch(0.86 0.008 100);
   --color-line-strong: oklch(0.72 0.012 120);
   --color-soft: oklch(0.94 0.006 100);
-  --font-display: 'Fraunces Variable', Georgia, serif;
-  --font-body: 'Public Sans', system-ui, sans-serif;
+  --font-display: 'Fraunces Variable', 'Noto Serif SC', 'Songti SC', Georgia, serif;
+  --font-body: 'Public Sans', 'Noto Sans SC', 'PingFang SC', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono Variable', ui-monospace, monospace;
   --content-width: 1160px;
   --prose-width: 68ch;

@@ -6,15 +6,15 @@ import type { UIKey } from './i18n/en';
 export const SITE = {
   /** BCP 47 language tag. Picks the UI dictionary in `src/i18n/`, and sets
    *  `<html lang>`, date formatting, and the RSS feed language. Dictionaries
-   *  ship for `en` and `ja`; regional variants like `en-GB` reuse the base
-   *  language's strings while keeping their own date format. */
-  locale: 'en',
+   *  ship for `en`, `ja`, and `zh-CN`; regional variants like `en-GB` reuse
+   *  the base language's strings while keeping their own date format. */
+  locale: 'zh-CN',
   /** Site name — used in the header brand, <title>, and og:site_name. */
   title: 'Yuze0101',
   /** Default meta description for pages that don't set their own. */
-  description: 'A personal site — notes and works by Yuze0101.',
+  description: '前端工程师,做实时、AI 驱动的 Web 界面。',
   /** Description of the RSS feed at /rss.xml. */
-  rssDescription: 'Notes and essays from Yuze0101.',
+  rssDescription: 'Yuze0101 的笔记:实时协作、AI 前端、组件库工程。',
   /** Default social share image, relative to the site root (see public/). */
   ogImage: '/og.jpg',
   /** Post author, emitted in JSON-LD BlogPosting structured data.
