@@ -1,0 +1,54 @@
+name: Feature request
+description: Suggest a capability or improvement for the theme.
+title: '[Feature]: '
+labels: ['enhancement']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Astro Keel aims to stay **minimal by default**. Larger features are
+        welcome, but they generally need to be opt-in via `src/consts.ts` so the
+        default build stays lean.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the use case rather than the implementation.
+      placeholder: I publish in two languages and have to fork every template to translate the nav labels.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What should the theme do? Which files would it touch?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: default-behavior
+    attributes:
+      label: How should it ship?
+      options:
+        - Opt-in via a flag in src/consts.ts
+        - On by default (no config)
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Existing workarounds, or other themes/plugins that solve this.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched the existing issues and did not find a duplicate.
+          required: true
+        - label: I am willing to open a pull request for this.

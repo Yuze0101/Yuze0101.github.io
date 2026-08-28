@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Live demo
+    url: https://kpab.github.io/astro-keel/
+    about: See the theme running before filing an issue — the behavior may be intentional.
+  - name: Setup & configuration docs
+    url: https://github.com/kpab/astro-keel#configuration
+    about: Site config, base path, accent color, fonts, and deployment are covered in the README.
+  - name: Contributing guide
+    url: https://github.com/kpab/astro-keel/blob/main/CONTRIBUTING.md
+    about: Dev setup, project structure, and pull request conventions.
