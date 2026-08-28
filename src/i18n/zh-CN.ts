@@ -41,6 +41,7 @@ export const zhCN: UIStrings = {
   'blog.title': '笔记',
   'blog.titlePaged': '笔记 · 第 {page} 页',
   'blog.eyebrow': '笔记',
+  'blog.metaDescription': '笔记与写作 — {site}。',
   'blog.listLabel': '笔记列表',
   'blog.tagsEyebrow': '标签',
   'blog.tagsNavLabel': '笔记标签',
@@ -77,6 +78,7 @@ export const zhCN: UIStrings = {
   // 作品
   'works.title': '作品',
   'works.eyebrow': '作品',
+  'works.metaDescription': '做过的项目 — {site}。',
   'works.listLabel': '精选作品',
   'work.eyebrow': '作品',
   'work.visit': '访问项目',
@@ -91,6 +93,7 @@ export const zhCN: UIStrings = {
   // 搜索
   'search.title': '搜索',
   'search.eyebrow': '搜索',
+  'search.lead': '基于 Pagefind 的纯静态搜索——构建时索引,无需后端。',
   'search.sectionLabel': '站内搜索',
   'search.fallback': '搜索索引在构建时生成。运行 <code>npm run build</code> 并预览站点即可使用,开发服务器上不提供。',
 

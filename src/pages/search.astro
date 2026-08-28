@@ -7,13 +7,13 @@ import { t } from '../i18n';
 const bundlePath = withBase('/pagefind/');
 ---
 
-<BaseLayout title={t('search.title')} description={`Search posts and works — ${SITE.title}.`}>
+<BaseLayout title={t('search.title')} description={t('search.lead')}>
   <link slot="head" rel="stylesheet" href={`${bundlePath}pagefind-ui.css`} />
   <section class="page-head section">
     <p class="eyebrow">{t('search.eyebrow')}</p>
-    <h1>Find posts and works.</h1>
+    <h1>{t('search.title')}</h1>
     <p class="lead">
-      Fully static search powered by Pagefind — indexed at build time, no backend required.
+      {t('search.lead')}
     </p>
   </section>
 

@@ -11,6 +11,7 @@ import { withBase } from '../lib/url';
 import { SITE, NAV_ITEMS } from '../consts';
 import { locale, navLabel, t } from '../i18n';
 import CodeCopy from '../components/CodeCopy.astro';
+import MermaidLoader from '../components/MermaidLoader.astro';
 import SocialLinks from '../components/SocialLinks.astro';
 
 interface Props {
@@ -122,12 +123,12 @@ const isActive = (href: string) => {
       <p>{SITE.footerText}</p>
       <div class="footer-links">
         <a href={withBase('/blog/')}>{t('footer.notes')}</a>
-        <a href="https://almanac.p4ni.com" target="_blank" rel="noopener noreferrer">Almanac ↗</a>
       </div>
       <SocialLinks />
     </footer>
 
     <CodeCopy />
+    <MermaidLoader />
 
     <script>
       // Delegated to `document` so the handler survives view-transition swaps

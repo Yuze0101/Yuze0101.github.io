@@ -37,14 +37,13 @@ const pageTitle =
 
 <BaseLayout
   title={pageTitle}
-  description={`Notes and writing — ${SITE.title}, a minimal portfolio and blog theme for Astro.`}
+  description={t('blog.metaDescription', { site: SITE.title })}
 >
   <section class="page-head section">
     <p class="eyebrow">{t('blog.eyebrow')}</p>
-    <h1>Notes, essays, and release logs.</h1>
+    <h1>写的笔记。</h1>
     <p class="lead">
-      The blog collection supports tags, descriptions, draft filtering, publish dates, and optional
-      hero images.
+      技术笔记 / 项目复盘 / 设计思考,按时间倒序排列,带标签归档。
     </p>
   </section>
 

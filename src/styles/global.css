@@ -311,20 +311,20 @@ h3 {
 
 h1 {
   margin-bottom: calc(var(--baseline) * 1.1);
-  font-size: clamp(3.25rem, 7vw, 6rem);
-  line-height: 0.94;
+  font-size: clamp(2.25rem, 4.5vw, 3.5rem);
+  line-height: 1.05;
 }
 
 h2 {
   margin-bottom: var(--baseline);
-  font-size: clamp(2.25rem, 5vw, 4.65rem);
-  line-height: 0.98;
+  font-size: clamp(1.5rem, 3vw, 2.4rem);
+  line-height: 1.1;
 }
 
 h3 {
   margin-bottom: calc(var(--baseline) * 0.4);
-  font-size: 1.3rem;
-  line-height: 1.08;
+  font-size: 1.15rem;
+  line-height: 1.2;
 }
 
 p {
@@ -461,6 +461,22 @@ pre code {
     opacity 180ms ease,
     border-color 180ms ease,
     color 180ms ease;
+}
+
+/* Mermaid: hide the raw ```mermaid source until the client loader renders SVG
+   over it. The loader is in BaseLayout and only kicks in when a block exists.
+   Astro 7 + Shiki uses <pre data-language="mermaid">, not class on <code>. */
+pre[data-language='mermaid'] {
+  display: none;
+}
+.mermaid-diagram {
+  margin: calc(var(--baseline) * 1.5) 0;
+  overflow-x: auto;
+  text-align: center;
+}
+.mermaid-diagram svg {
+  max-width: 100%;
+  height: auto;
 }
 
 .code-block:hover .code-copy,
