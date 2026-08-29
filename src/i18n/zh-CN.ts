@@ -95,7 +95,8 @@ export const zhCN: UIStrings = {
   'search.eyebrow': '搜索',
   'search.lead': '基于 Pagefind 的纯静态搜索——构建时索引,无需后端。',
   'search.sectionLabel': '站内搜索',
-  'search.fallback': '搜索索引在构建时生成。运行 <code>npm run build</code> 并预览站点即可使用,开发服务器上不提供。',
+  'search.fallback':
+    '搜索索引在构建时生成。运行 <code>npm run build</code> 并预览站点即可使用,开发服务器上不提供。',
 
   // 404
   'notFound.title': '页面未找到',

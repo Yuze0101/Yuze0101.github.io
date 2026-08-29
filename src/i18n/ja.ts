@@ -43,6 +43,7 @@ export const ja: UIStrings = {
   'blog.title': 'ブログ',
   'blog.titlePaged': 'ブログ · {page} ページ目',
   'blog.eyebrow': 'ブログ',
+  'blog.metaDescription': 'ノートと執筆 — {site}。',
   'blog.listLabel': 'ブログ記事',
   'blog.tagsEyebrow': 'タグ',
   'blog.tagsNavLabel': 'ブログのタグ',
@@ -80,6 +81,7 @@ export const ja: UIStrings = {
   // Works
   'works.title': '制作物',
   'works.eyebrow': '制作物',
+  'works.metaDescription': '主な制作物 — {site}。',
   'works.listLabel': '厳選した制作物',
   'work.eyebrow': '制作物',
   'work.visit': 'プロジェクトを見る',
@@ -94,10 +96,10 @@ export const ja: UIStrings = {
   // Search
   'search.title': '検索',
   'search.eyebrow': '検索',
+  'search.lead': 'Pagefind による静的全文検索。ビルド時にインデックスを生成し、バックエンド不要。',
   'search.sectionLabel': 'サイト内検索',
   'search.fallback':
     '検索インデックスはビルド時に生成されます。<code>npm run build</code> を実行し、プレビューでお試しください。開発サーバーでは利用できません。',
-
   // 404
   'notFound.title': 'ページが見つかりません',
   'notFound.description': 'お探しのページは存在しません。',

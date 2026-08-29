@@ -8,9 +8,7 @@
   const renderMermaid = async () => {
     // Astro 7 + Shiki 把语言标识放在 <pre data-language="..."> 上,
     // 不是 <code class="language-...">。这里按 data 属性匹配。
-    const blocks = document.querySelectorAll<HTMLPreElement>(
-      'pre[data-language="mermaid"]',
-    );
+    const blocks = document.querySelectorAll<HTMLPreElement>('pre[data-language="mermaid"]');
     if (blocks.length === 0) return;
 
     const { default: mermaid } = await import('mermaid');

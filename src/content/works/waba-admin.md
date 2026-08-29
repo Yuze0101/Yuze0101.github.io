@@ -1,7 +1,17 @@
 ---
 title: WABA Admin · WhatsApp 商业客户运营平台
 description: 面向海外企业的 WhatsApp Business API 商业客户运营平台,覆盖实时聊天、群发营销、模板话术、账号接入与支付充值。
-tech: ['React 19', 'TypeScript', 'Vite 8', 'Ant Design 6', 'Zustand 5', 'SSE', 'Web Worker', 'IndexedDB']
+tech:
+  [
+    'React 19',
+    'TypeScript',
+    'Vite 8',
+    'Ant Design 6',
+    'Zustand 5',
+    'SSE',
+    'Web Worker',
+    'IndexedDB',
+  ]
 publishDate: 2025-11-15
 order: 1
 ---

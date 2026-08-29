@@ -54,7 +54,8 @@ export const en = {
   'blog.title': 'Blog',
   'blog.titlePaged': 'Blog · Page {page}',
   'blog.eyebrow': 'Blog',
-  'blog.metaDescription': 'Notes and writing — {site}, a minimal portfolio and blog theme for Astro.',
+  'blog.metaDescription':
+    'Notes and writing — {site}, a minimal portfolio and blog theme for Astro.',
   'blog.listLabel': 'Blog posts',
   'blog.tagsEyebrow': 'Tags',
   'blog.tagsNavLabel': 'Blog tags',
@@ -110,7 +111,8 @@ export const en = {
   // Search
   'search.title': 'Search',
   'search.eyebrow': 'Search',
-  'search.lead': 'Fully static search powered by Pagefind — indexed at build time, no backend required.',
+  'search.lead':
+    'Fully static search powered by Pagefind — indexed at build time, no backend required.',
   'search.sectionLabel': 'Site search',
   'search.fallback':
     'The search index is generated at build time. Run <code>npm run build</code> and preview the site to try it — it is not available on the dev server.',

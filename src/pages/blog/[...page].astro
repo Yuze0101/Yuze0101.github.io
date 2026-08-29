@@ -35,16 +35,11 @@ const pageTitle =
   page.currentPage === 1 ? t('blog.title') : t('blog.titlePaged', { page: page.currentPage });
 ---
 
-<BaseLayout
-  title={pageTitle}
-  description={t('blog.metaDescription', { site: SITE.title })}
->
+<BaseLayout title={pageTitle} description={t('blog.metaDescription', { site: SITE.title })}>
   <section class="page-head section">
     <p class="eyebrow">{t('blog.eyebrow')}</p>
     <h1>写的笔记。</h1>
-    <p class="lead">
-      技术笔记 / 项目复盘 / 设计思考,按时间倒序排列,带标签归档。
-    </p>
+    <p class="lead">技术笔记 / 项目复盘 / 设计思考,按时间倒序排列,带标签归档。</p>
   </section>
 
   <section class="section content-index" aria-label={t('blog.listLabel')}>

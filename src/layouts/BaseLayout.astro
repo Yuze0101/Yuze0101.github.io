@@ -53,8 +53,10 @@ const isActive = (href: string) => {
     <link rel="alternate" type="application/rss+xml" title={siteName} href={withBase('/rss.xml')} />
     <title>{fullTitle}</title>
 
-    {/* CJK 字体回退(Noto Serif SC / Noto Sans SC),走 Google Fonts CDN。
-        拉丁字体仍由 @fontsource 自托管,所以这个 <link> 只在含中文/日文/韩文时才会下载。 */}
+    {
+      /* CJK 字体回退(Noto Serif SC / Noto Sans SC),走 Google Fonts CDN。
+        拉丁字体仍由 @fontsource 自托管,所以这个 <link> 只在含中文/日文/韩文时才会下载。 */
+    }
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
